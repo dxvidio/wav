@@ -1,0 +1,7 @@
+runtime: nodejs20
+service: default  # Remove if you want "default" service
+
+handlers:
+  # Serve all traffic via Express
+  - url: /.*
+    script: auto

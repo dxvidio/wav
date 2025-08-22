@@ -1,0 +1,64 @@
+.auth-container {
+  width: 40%;
+  margin: 20vh auto;
+  background: rgb(24, 24, 25);
+  border-radius: 16px;
+  border-width: 1.5px;
+  border-color: #4f4f4f;
+  border-style: solid;
+  padding: 50px 0 20px 0;
+}
+#form-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-field {
+  width: 80%;
+  margin-bottom: 20px;
+}
+.account-link {
+  text-align: center;
+  margin-top: 15px;
+  color: #ededed;
+  font-size: 0.9em;
+}
+.account-link a {
+  color: #51c54d;
+  font-weight: 500;
+  text-decoration: none;
+}
+.account-link a:hover {
+  text-decoration: underline;
+}
+.error {
+  color: #cd2e2e;
+  margin-top: 10px;
+  text-align: center;
+}
+.success {
+  color: #51c54d;
+  margin-top: 10px;
+  text-align: center;
+}
+/* iPad Portrait */
+@media (max-width: 820px) {
+  .auth-container {
+    width: 60%;
+    padding: 40px 0;
+  }
+  .form-field {
+    width: 90%;
+  }
+}
+/* Mobile Portrait */
+@media (max-width: 480px) {
+  .auth-container {
+    width: 80%;
+    padding: 40px 0;
+  }
+  .form-field {
+    width: 95%;
+  }
+}

@@ -1,0 +1,11 @@
+---
+:id: 336861624
+:submitters:
+- :name: DAVID LEE
+  :email: davidlee1813@gmail.com
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2025-06-12 07:14:59.569721000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2025-06-12 00:14:59.569721000 Z
+:status: processed
